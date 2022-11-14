@@ -1,0 +1,32 @@
+pipeline {
+       
+    agent {label 'node-02'}
+    stages {
+       
+        stage('Clone') {
+            steps {
+                    git branch: 'main',url:'https://github.com/Samer99Najjar/Jenkins-Closing-Task.git'
+            }
+        }
+        
+        stage('Build') {
+            steps{
+                
+                sh 'mvn clean package'
+                
+
+            }
+        }
+        stage('Artifact') {
+            steps{
+                archiveArtifacts artifacts: 'target/*.jar', followSymlinks: false
+            }
+        }
+        stage('SlackMSG'){
+            steps{
+                slackSend baseUrl: 'https://hooks.slack.com/services/', channel: 'fursa-hw', message: 'slack msg done!', tokenCredentialId: 'slack-hw'
+            }
+        }
+        
+    }
+}
