@@ -21,12 +21,12 @@
  
 # Website Demo
 
-![alt text](https://github.com/Samer99Najjar/Jenkins_Closing_Task/blob/main/WebDemo.PNG)
+![alt text](https://github.com/Samer99Najjar/Jenkins-Closing-Task/blob/main/WebDemo.PNG)
 
 # Jenkins pipeline Job
 
-![alt text](https://github.com/Samer99Najjar/Jenkins_Closing_Task/blob/main/buildimg.PNG)
+![alt text](https://github.com/Samer99Najjar/Jenkins-Closing-Task/blob/main/buildimg.PNG)
 
 # Slack notification
 
-![alt text](https://github.com/Samer99Najjar/Jenkins_Closing_Task/blob/main/slackmsg.PNG)
+![alt text](https://github.com/Samer99Najjar/Jenkins-Closing-Task/blob/main/slackmsg.PNG)
