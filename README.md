@@ -8,7 +8,7 @@
 
 ## Clone the project
 
- > git clone https://github.com/Samer99Najjar/Jenkins_Closing_Task.git 
+ > git clone https://github.com/Samer99Najjar/Jenkins-Closing-Task.git
   
 ## Build the project 
 
