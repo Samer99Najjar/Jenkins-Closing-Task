@@ -29,4 +29,4 @@
 
 # Slack notification
 
-![alt text](https://github.com/Samer99Najjar/Jenkins-Closing-Task/blob/main/slackmsg.PNG)
+![alt text](https://github.com/Samer99Najjar/Jenkins-Closing-Task/blob/main/slackmsglast.PNG)
