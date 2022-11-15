@@ -2,7 +2,7 @@
 
   - The app reads the “Breaking News” from this URL :- http://www.ynet.co.il/Integration/StoryRss2.xml .
   - Parses and presents the breaking news XML in an HTML Format.
-  - The app is built by intellij idea with Java .
+  - The app is built by intellij idea with Java spring with 8089 port.
 
 # Run Locally
 
