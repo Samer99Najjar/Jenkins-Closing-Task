@@ -12,7 +12,7 @@
   
 ## Build the project 
 
- > build the project: mvn clean install
+ > build the project: mvn clean package
   
 ## Run Jar File
 
